@@ -3,7 +3,11 @@
 }
 
 body {
-    background-image: radial-gradient(rgb(107, 156, 255), rgb(129, 0, 199));
+    background-image: radial-gradient( rgb(181, 181, 181), rgb(240, 240, 240));
+}
+
+h2, h3 {
+    text-align: center;
 }
 
 header,
@@ -13,7 +17,7 @@ footer {
     align-items: center;
     flex-direction: column;
     gap: 15px;
-    color: #fff;
+    color: #000;
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -31,13 +35,17 @@ header>h1 {
     margin: 0px;
 }
 
+.headings-box {
+    text-align: center;
+}
+
 .icon-container {
     display: flex;
     gap: 10px;
 }
 
 nav {
-    background-color: #f6cd00;
+    background-color: transparent;
     margin: 10px;
     list-style-type: none;
     border-radius: 10px;
@@ -71,12 +79,16 @@ figure {
     /* border: 1px solid black; */
     border-radius: 25px;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    width: 50%;
+    margin: 20px auto;
+
 
 }
 
 main {
-    background-color: rgb(155, 225, 255);
+    background-color: transparent;
     margin: 10px;
     border-radius: 12px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -91,9 +103,10 @@ article {
 section {
     display: inline-block;
     padding: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
     border-radius: 25px;
-    margin: 10px;
+    margin: 15px;
+    color: #fff;
 }
 
 
