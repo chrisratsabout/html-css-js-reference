@@ -38,7 +38,7 @@
 
         th {
             padding: 10px;
-            background-color: rgb(255, 119, 248);
+            background-color: rgb(255, 169, 251);
         }
 
         td {
@@ -54,6 +54,14 @@
             text-align: center;
             margin: 20px auto;
         }
+
+        .last-table {
+            border-spacing: 0;
+            border-collapse: separate;
+            border-radius: 10px;
+        }
+
+
     </style>
 </head>
 
@@ -96,7 +104,7 @@
         <article>
             <h2>Tables</h2>
             <h3>Basic tables with TR and TD</h3>
-            <p>Tables are a very convenient means to display structured data.
+            <p class="table-example-text">Tables are a very convenient means to display structured data.
                 Tables can be boiled down to <strong>rows</strong> and <strong>cells</strong>.
 
                 A simple table can be written as:
@@ -253,8 +261,8 @@
     &lt;/tfoot&gt;
 &lt;/table&gt;
             </pre>
-            <p>And this is what the code looks like with styling:</p>
-            <table>
+            <p class="table-example-text">And this is what the code looks like with styling:</p>
+            <table class="table-example-text last-table">
                 <caption>
                     My favorite Mortal Kombat characters
                 </caption>

@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: radial-gradient( rgb(181, 181, 181), rgb(240, 240, 240));
+    background-image: radial-gradient( rgb(144, 144, 144), rgb(255, 255, 255));
 }
 
 h2, h3 {
@@ -101,11 +101,11 @@ article {
 }
 
 section {
-    display: inline-block;
+    display: block;
+    margin-bottom: 35px;
     padding: 10px;
     background-color: rgb(31, 31, 31);
-    border-radius: 25px;
-    margin: 15px;
+    border-radius: 0 0 12px 12px;
     color: #fff;
 }
 
