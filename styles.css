@@ -1,0 +1,111 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-image: radial-gradient(rgb(107, 156, 255), rgb(129, 0, 199));
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+header i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header>h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+}
+
+nav {
+    background-color: #f6cd00;
+    margin: 10px;
+    list-style-type: none;
+    border-radius: 10px;
+    color: #002d88;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: #686868;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+figure {
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+main {
+    background-color: rgb(155, 225, 255);
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+section {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin: 10px;
+}
+
+
+
+/* For code samples */
+pre {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+img {
+    border: 1px solid black;
+}
